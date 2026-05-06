@@ -1,0 +1,91 @@
+SmartSpend – Budget Tracker App (OPSC6311)
+
+Overview
+SmartSpend is a mobile Budget Tracker application developed using Kotlin in Android Studio. The app is designed to help users efficiently manage their finances by tracking expenses, setting budget goals, and analysing spending patterns through a structured and user-friendly interface.
+
+This project was developed as part of the OPSC6311 Open Source Coding module (Part 2 – App Prototype Development).
+
+---
+
+Purpose
+SmartSpend aims to:
+- Enable users to monitor daily spending
+- Improve financial discipline through budgeting
+- Provide structured expense categorisation
+- Offer a simple and intuitive user experience
+
+---
+
+Features (Prototype Implementation)
+
+User Authentication
+- User registration with username and password
+- Secure login functionality
+
+Category Management
+- Create custom categories (e.g. Groceries, Transport, Entertainment)
+
+Expense Tracking
+Users can add expense entries including:
+- Amount
+- Date
+- Start Time & End Time
+- Description
+- Category selection
+
+Receipt Upload
+- Optional image attachment (e.g. receipt photo) for each expense
+
+Budget Goals
+- Set minimum and maximum monthly spending goals
+
+Expense Viewing
+- View all expenses within a selected date range
+- Access attached receipt images
+- View total spending per category
+
+Local Data Storage
+- All data is stored locally using Room Database (SQLite)
+
+---
+
+Technologies Used
+- Kotlin  
+- Android Studio  
+- Room Database (SQLite)  
+- GitHub (Version Control)  
+
+---
+
+Development & Version Control
+- GitHub used for version control
+- Regular commits were made throughout development
+- Code is structured into Activities, Entities, DAO, and Database layers
+
+---
+
+How to Run the Application
+1. Clone the repository:
+      git clone https://github.com/YOUR_USERNAME/SmartSpend.git   
+2. Open the project in Android Studio
+3. Allow Gradle to sync dependencies
+4. Run the app on an emulator or Android device
+
+---
+---
+GitHub Repository
+ https://github.com/Mohlao/SmartSpend
+
+---
+
+- Name: Rakabe Mohlao
+- Student Number: st10448032
+
+---
+
+
+This application demonstrates:
+- Mobile app development using Kotlin
+- Data persistence using Room Database
+- Implementation of user authentication and financial tracking features
+- Use of GitHub for version control and project management
